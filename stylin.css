@@ -40,7 +40,7 @@ button {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 16px;
+    padding: 80px;
     color:#F9FAF8;
 }
 
@@ -60,6 +60,7 @@ button {
 .image {
     align-self: flex-end;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 img {
@@ -110,4 +111,8 @@ img {
 #author {
     display: flex;
     justify-content: flex-end;
+}
+
+.section4 {
+    
 }
