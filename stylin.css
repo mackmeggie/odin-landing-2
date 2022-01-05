@@ -21,7 +21,6 @@ ul {
 
 p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #F9FAF8;
 }
 
 button {
@@ -42,6 +41,7 @@ button {
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 16px;
+    color:#F9FAF8;
 }
 
 .hero {
@@ -67,12 +67,30 @@ img {
 }
 
 .section2 {
+    text-align: center;
+    color: #1F2937
+}
+
+.container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 52px;
+    gap: 20px;
+    color: #1F2937;
 }
 
 .title {
+    font-size: 36px;
+    font-weight: bolder;
     text-align: center;
+    color:#1F2937;
+}
+
+.mushroom {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    max-width: 200px;
 }
